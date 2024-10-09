@@ -14,7 +14,7 @@ def process_file(input_file, output_file):
         with open(input_file, 'r') as infile:
             content = infile.read()
 
-        # Заміна символів нового рядка (\n) на пробіли
+        # Заміна символів нового рядка (\n) на _
         content = content.replace('\n', '_')
 
         # Замінюємо символи "1" на "0" і навпаки
